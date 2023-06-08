@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(47, 24, 68);
+}
+
+p {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+    color: white;
+    font-weight: 700;
+}
+
+.timerBtn{
+    width: 80px;
+    height: 30px;
+    color: white;
+    border: 1px groove white;
+    border-radius: 25px;
+    background-color: rgb(71, 7, 71);
+    box-shadow: 0px 0px white, 0em 0 .4em rgb(50, 53, 46);
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    margin-top: 400px;
+}
+
+.timerBtn:hover {
+    background-color:rgba(71, 7, 71, 0.315) ;
+}
+
+#timeDisplay{
+    font-size: 75px;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.circle {
+    width: 500px;
+    height: 500px;
+    line-height: 500px;
+    border-radius: 50%;
+    border: 1px groove;
+    box-shadow: 0px 0px white, 0em 0 .4em rgb(50, 53, 46);
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    background:rgb(65, 9, 65);
+  }
+
+#timeContainer {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
